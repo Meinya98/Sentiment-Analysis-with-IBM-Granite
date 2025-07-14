@@ -6,7 +6,7 @@ Dataset used is from [Kaggle](https://www.kaggle.com/datasets/ahmadseloabadi/tix
 ### 2. Insights & Findings
 1. The negative reviews are dominating, dig deeper into the "why" aspect for the review flagged with "negative"
 2. Given the model was not consistent in the output, the prompt has to be evaluated. The reviews has to be translated to english first. Examples must be given explicitly to prevent mislabels
-- This was confirmed by violinplot that some 4-5 scores are labeled "N/A"
+- This was confirmed by violinplot that some 4-5 scores are labeled "N/A" or "Mixed"
 3. Given the multiple "RunTime Error" occured, the underlying problem has to be investigated (from the server?) or try to run in batch
 ### 3. Recommendations
 1. Dig deeper into the reason why the reviews were flagged as "negative" to further evaluate the application
