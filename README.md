@@ -1,6 +1,12 @@
 # Sentiment Analysis with IBM Granite
 Application's reviews sentiment analysis with IBM Granite 3.3 Instruct model. A classification problem 
-
+### Project Overview
+- Background: Reviews are used to improve anything, in this case is a mobile application
+- Problems:
+  - Reviews were not used effectively because it is not classified, only based on "star" rating
+  - Some users are not giving reviews correctly (5 star but bad review)
+- Approach: Use AI (IBM Granite) for reviews classification in sentiment analysis
+- Purpose: To classify reviews for generating insights and actionable points for further refining the application
 ### 1. Dataset
 Dataset used is from [Kaggle](https://www.kaggle.com/datasets/ahmadseloabadi/tix-id-app-reviews-from-google-play-store/data)
 ### 2. Insights & Findings
