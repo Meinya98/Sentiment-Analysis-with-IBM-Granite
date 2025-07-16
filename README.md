@@ -16,7 +16,8 @@ Dataset used is from [Kaggle](https://www.kaggle.com/datasets/ahmadseloabadi/tix
 3. Given the multiple "RunTime Error" occured, the underlying problem has to be investigated (from the server?) or try to run in batch
 ### 3. Recommendations
 1. Dig deeper into the reason why the reviews were flagged as "negative" to further evaluate the application
-2. Try reevaluate after refining the prompt to see the difference
+2. Try reevaluating after refining the prompt to see the difference
+3. If multiple errors are still occurring, contact the developer or support
 ### 4. AI Support Explanation
 AI model used: [IBM Granite 3.3 Instruct](https://replicate.com/ibm-granite/granite-3.3-8b-instruct) \
 This model was used for classify the reviews as "positive", "negative", or "mixed"
