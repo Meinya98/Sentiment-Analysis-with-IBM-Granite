@@ -10,8 +10,8 @@ Application's reviews sentiment analysis with IBM Granite 3.3 Instruct model. A 
 ### 1. Dataset
 Dataset used is from [Kaggle](https://www.kaggle.com/datasets/ahmadseloabadi/tix-id-app-reviews-from-google-play-store/data)
 ### 2. Insights & Findings
-1. The negative reviews are dominating, dig deeper into the "why" aspect for the review flagged with "negative"
-2. Given the model was not consistent in the output, the prompt has to be evaluated. The reviews has to be translated to english first. Examples must be given explicitly to prevent mislabels
+1. The negative reviews are dominating, mostly with 1 - 2 star rating (as expected). But, some has 5 star rating, indicating a mislabel or sarcastic/fake reviews
+2. Given the model was not consistent in the output, the prompt has to be evaluated. The reviews has to be translated to english first. Examples must be given explicitly to prevent mislabels and unknown labels
 - This was confirmed by violinplot that some 4-5 scores are labeled "N/A" or "Mixed"
 3. Given the multiple "RunTime Error" occured, the underlying problem has to be investigated (from the server?) or try to run in batch
 ### 3. Recommendations
