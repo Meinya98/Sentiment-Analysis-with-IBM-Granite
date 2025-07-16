@@ -15,7 +15,7 @@ Dataset used is from [Kaggle](https://www.kaggle.com/datasets/ahmadseloabadi/tix
 - This was confirmed by violinplot that some 4-5 scores are labeled "N/A" or "Mixed"
 3. Given the multiple "RunTime Error" occured, the underlying problem has to be investigated (from the server?) or try to run in batch
 ### 3. Recommendations
-1. Dig deeper into the reason why the reviews were flagged as "negative" to further evaluate the application
+1. Dig deeper into the reason why the reviews were flagged as "negative" to further evaluate the application, and also the “mixed” and “N/A” reviews to see why the mistakes happen from the model
 2. Try reevaluating after refining the prompt to see the difference
 3. If multiple errors are still occurring, contact the developer or support
 ### 4. AI Support Explanation
